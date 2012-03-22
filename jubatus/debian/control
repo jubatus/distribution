@@ -1,0 +1,21 @@
+Source: jubatus
+Section: unknown
+Priority: extra
+Maintainer: UENISHI Kota <uenishi.kota@lab.ntt.co.jp>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://jubat.us
+Vcs-Git: git://github.com/jubatus/jubatus.git
+Vcs-Browser: http://github.com/jubatus/jubatus
+
+Package: jubatus-standalone
+Architecture: any
+Depends: libmsgpack-dev, libgoogle-glog-dev, libevent-dev, pkg-config, pficommon
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Jubatus standalone mode
+
+#Package: jubatus
+#Architecture: any
+#Depends: libmsgpack-dev, libgoogle-glog-dev, libevent-dev, pkg-config, pficommon, libzookeeper-dev
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: Jubatus distributed mode

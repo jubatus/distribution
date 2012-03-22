@@ -1,0 +1,5 @@
+debian/jubatus-standalone/usr/bin/jubastat
+debian/jubatus-standalone/usr/bin/regression_performance_test
+debian/jubatus-standalone/usr/bin/jubaregression
+debian/jubatus-standalone/usr/bin/jubarecommender
+debian/jubatus-standalone/usr/bin/jubaclassifie

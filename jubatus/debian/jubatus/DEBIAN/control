@@ -1,0 +1,11 @@
+Package: jubatus
+Version: 0.2.1-1
+Architecture: amd64
+Maintainer: UENISHI Kota <uenishi.kota@lab.ntt.co.jp>
+Installed-Size: 3
+Depends: libmsgpack-dev
+Section: unknown
+Priority: extra
+Homepage: http://jubat.us
+Description: hogehoge
+ <insert long description, indented with spaces>
