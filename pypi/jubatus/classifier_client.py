@@ -20,7 +20,7 @@ class classifier:
 
   def train (self, name, data):
     name = name
-    data = [elem.to_array() for elem in data]
+    data = [(label, elem.to_array()) for label, elem in data]
 
     return self.client.call('train', name, data)
 

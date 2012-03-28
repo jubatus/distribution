@@ -20,7 +20,7 @@ class regression:
 
   def train (self, arg0, arg1):
     arg0 = arg0
-    arg1 = [elem.to_array() for elem in arg1]
+    arg1 = [(f, elem.to_array()) for f, elem in arg1]
 
     return self.client.call('train', arg0, arg1)
 

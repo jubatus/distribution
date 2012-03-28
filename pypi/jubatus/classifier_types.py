@@ -69,13 +69,13 @@ class converter_config:
 
   def to_array(self):
     variables = []
-    variables.append({k : v.to_array() for k,v in self.string_filter_types.items()})
+    variables.append(self.string_filter_types)
     variables.append([elem.to_array() for elem in self.string_filter_rules])
-    variables.append({k : v.to_array() for k,v in self.num_filter_types.items()})
+    variables.append(self.num_filter_types)
     variables.append([elem.to_array() for elem in self.num_filter_rules])
-    variables.append({k : v.to_array() for k,v in self.string_types.items()})
+    variables.append(self.string_types)
     variables.append([elem.to_array() for elem in self.string_rules])
-    variables.append({k : v.to_array() for k,v in self.num_types.items()})
+    variables.append(self.num_types)
     variables.append([elem.to_array() for elem in self.num_rules])
 
     return variables
