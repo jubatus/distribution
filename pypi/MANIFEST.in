@@ -1,0 +1,3 @@
+setup.py
+LICENSE
+recursive-include jubatus *.py
